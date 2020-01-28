@@ -1,3 +1,7 @@
+body {
+    text-align: center;
+}
+
 h1 {
     text-align: center;
     padding-top: 180px;
@@ -6,17 +10,80 @@ h1 {
 .search {
     width: 580px;
     height: 45px;
-    border: thin solid lightgray; 
+    border: 1px solid #E9E9E9; 
     border-radius: 50px;
+    margin-top: 20px;   
+    position: relative;
+}   
+
+.search:before{
+    content:
 }
+
+.search:hover {
+    box-shadow: 3px 3px 10px 1px #DCDCDC;
+}
+
+.search:active {
+    box-shadow: 3px 3px 10px 1px #DCDCDC;
+    border: none;
+}
+
+/* .image {
+    background-image: url('file:///Users/gerritvanleeuwen/the_odin_project/google_homepage/images/magnify.jpg');
+    background-position: left;
+    background-repeat: no-repeat;
+} */
 
 form {
     text-align: center;
 }
 
-.buttons {
+.button-left {
     margin-top: 25px;
 }
 
+input[type=submit] {
+    height: 35px;
+    width: 135px;
+    border: none;
+    border-radius: 5px;
+    /* padding: 15px 15px 15px 15px; */
+    margin: 30px 7px;
+    color: #696969;
+    background-color: #F5F5F5;
+    font-size: 14px;
+}
 
+input[type=submit]:hover {
+    border: 1px solid gray;
+}
 
+ul {
+    color: black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-size: 13px;
+}
+
+ li {
+     display: block;
+     float: left;
+     padding-right: 10px;
+     padding-left: 10px;
+ }
+
+ li a {
+    color: black;
+    text-decoration: none;
+ }
+
+ li a:hover {
+     text-decoration: underline;
+ }
+
+ .right {
+     float: right;
+ }
