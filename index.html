@@ -3,13 +3,22 @@
     <head>
         <title>Google</title>
         <link rel="stylesheet" href="styles/google.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     </head>
     <body>
-        <h1><img src="images/google_img.png" class="logo" alt="Google Image"></h1>
+        <nav></nav>
+            <ul>
+                <li><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+                <li><a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></li>
+                <li class="right"><a href="https://www.google.com/imghp?hl=en&tab=wi&authuser=0&ogbl">Images</a></li>
+                <li class="right"><a href="https://mail.google.com/mail/u/0/?tab=wm&ogbl#inbox">Gmail</a></li>
+            </ul>
+        </nav>
+        <h1><img src="images/google_img.png" class="logo" alt="Google"></h1>
         <form> 
-            <input type="text" class="search">
+            <span><i class="fas fa-search icon"><input type="text" class="search image"></i></span>
             <br>
-            <input type="submit" class="buttons"><input type="submit" class="button">
+            <input type="submit" class="buttons" value="Google Search"><input type="submit" class="buttons" value="I'm Feeling Lucky">
         </form>
     </body>
 </html>
