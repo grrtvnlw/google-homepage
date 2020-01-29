@@ -26,10 +26,6 @@ i {
     color: #C0C0C0;
 }
 
-.search:before{
-    content:
-}
-
 .search:hover {
     box-shadow: 3px 3px 10px 1px #DCDCDC;
 }
@@ -38,12 +34,6 @@ i {
     box-shadow: 3px 3px 10px 1px #DCDCDC;
     border: none;
 }
-
-/* .image {
-    background-image: url('file:///Users/gerritvanleeuwen/the_odin_project/google_homepage/images/magnify.jpg');
-    background-position: left;
-    background-repeat: no-repeat;
-} */
 
 form {
     text-align: center;
@@ -58,7 +48,6 @@ input[type=submit] {
     width: 135px;
     border: none;
     border-radius: 5px;
-    /* padding: 15px 15px 15px 15px; */
     margin: 30px 7px;
     color: #696969;
     background-color: #F5F5F5;
@@ -109,6 +98,6 @@ ul {
     bottom: 0;
     width: 100%;
     height: 15px;
-    padding: 15px 15px; 
+    padding: 15px;
     border: none; 
  }
