@@ -1,7 +1,3 @@
-html {
-    border: none;
-}
-
 body {
     text-align: center;
     border: none;
@@ -10,41 +6,26 @@ body {
 }
 
 h1 {
-    text-align: center;
     padding-top: 180px;
 }
 
-.search {
+input[type=text] {
     width: 580px;
     height: 40px;
     border: 1px solid #E0E0E0;
     border-radius: 50px;  
     position: relative;
-}   
-
-i {
-    color: #C0C0C0;
 }
 
-.search:hover {
+#textImage {
+    background-image: url("/Users/gerritvanleeuwen/code/odin/the_odin_project/google_homepage/images/mag-search.png");
+    position: left;
+    background-size: 45px;
+    background-repeat: no-repeat;
+}
+
+input[type=text]:hover {
     box-shadow: 3px 3px 10px 1px #DCDCDC;
-}
-
-.search:active {
-    box-shadow: 3px 3px 10px 1px #DCDCDC;
-    border: none;
-}
-
-form {
-    text-align: center;
-}
-
-.button-left {
-    margin-top: 25px;
-}
-
-input[type=text] {
-    background: url(/images/mag-search.png) no-repeat scroll;
 }
 
 input[type=submit] {
@@ -63,7 +44,6 @@ input[type=submit]:hover {
 }
 
 ul {
-    color: black;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -73,9 +53,9 @@ ul {
 
  li a {
     display: block;
-    color: #696969;
+    color: #484848;
     text-decoration: none;
-    padding: 4px 5px;
+    padding: 2px 1px;
  }
 
  li a:hover {
@@ -101,14 +81,12 @@ ul {
     bottom: 0;
     width: 100%;
     height: 15px;
-    padding: 8px 6px 15px 6px;
+    padding: 9px 5px 16px 5px;
     border: none; 
  }
 
  button {
-     background-color: /*#4169E1*/ #3385ff;
-     margin-bottom: 40px;
-     padding: 7px 12px;
+     background-color: #3385ff;
      border-radius: 2px;
      border: none;
  }
@@ -134,14 +112,10 @@ ul {
     margin-right: 30px;
  }
 
- div {
+ .rightBorder {
     padding-right: 25px;
  }
 
  .imgPadding {
-    padding: 2px 3px;
-    padding-right: 10px;
- }
-
- .searchImg {
+    padding-right: 7px;
  }
