@@ -18,7 +18,7 @@ input[type=text] {
 }
 
 #textImage {
-    background-image: url("file:///Users/gerritvanleeuwen/code/odin/the_odin_project/google_homepage/images/mag-search.png");
+    background-image: /*url("https://github.com/grrtvnlw/google-homepage/blob/master/images/mag-search.png");*/url("../images/mag-search.png");
     position: left;
     background-size: 45px;
     background-repeat: no-repeat;
